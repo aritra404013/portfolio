@@ -18,14 +18,16 @@ export const Navbar = () => {
           className="flex items-center"
         >
           <Image
-            src="/logo.png"
+            src="/ares-logo.png"
             alt="Logo"
             width={70}
             height={70}
             draggable={false}
-            className="cursor-pointer"
+            className="cursor-pointer rounded-full"
           />
-          <div className="hidden md:flex md:selffont-bold ml-[10px] text-gray-300">ARES WEB SOLUTIONS</div>
+          <div className="flex font-bold ml-[10px] text-gray-300 text-[10px] sm:text-[14px]">
+            ARES WEB SOLUTIONS
+          </div>
         </Link>
 
         {/* Web Navbar */}
